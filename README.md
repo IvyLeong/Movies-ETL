@@ -1,1 +1,2 @@
 # Movies-ETL
+During the data cleaning process, the first assumption is that the ‘box office’ format is not the ones we assumed. If ’box office’ is another format, then return np. The second assumption is that if the ‘budget’ format is not the ones we assumed, then return np. The third assumption is that if the ‘release date’ format is not the assumed ones, then return np. The fourth assumption is that if the ‘running time’ is not as formatted, then return np. The fifth assumption is that if the movie language is not on the language list, then dropna.
